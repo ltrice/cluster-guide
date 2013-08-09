@@ -8,7 +8,7 @@ You can create your ssh keys using the following command on your local computer:
 
    ssh-keygen -t dsa
 
-The following text should appear ``Enter file in which to save the key``.  Be sure to give the keys a name that will conflict with anyone else's ssh keys.  Once you have entered in the name of your ssh keys it will ask for a **passphrase** ``Enter passphrase (empty for no passphrase):``.
+The following text should appear ``Enter file in which to save the key``.  Be sure to give the keys a name that will not conflict with anyone else's ssh keys.  Once you have entered in the name of your ssh keys it will ask for a **passphrase** ``Enter passphrase (empty for no passphrase):``.
 
 Create a **passphrase** to go with the ssh keys and be sure to remember it as it will be the password asked from you when you ssh into the remote computers with your ssh key.  
 
@@ -20,4 +20,4 @@ Then ``ssh`` onto your front end and ``cd`` into the */.ssh* directory.  Append 
 
    cat gsiman_dsa.pub >> authorized_keys
 
-Your ssh key is now on the remote compute.  Keep in mind that when you ssh into the computer now it will ask you for the **passphrase** you entered in earlier.
+Your ssh key is now on the remote computer.  Keep in mind that when you ssh into the computer now it will ask you for the **passphrase** you entered in earlier.
