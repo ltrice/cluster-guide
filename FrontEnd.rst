@@ -26,10 +26,10 @@ It is recommended that you install at least the following rolls: *Boot, Base, Ar
 
 Installing Rocks
 ================
-Be aware that when the Rocks Installation boots, if you do not press any button the ``build`` command will automatically run without clarification of any of the options (you will be able to fill the options in during the installtion, but it is easier to input them as options of ``build``).  Boot to the media and do the ``build`` command::
+Be aware that when the Rocks installation boots, if you do not press a button, the ``build`` command will automatically run without clarification of any of the options (you will be able to fill in the options during the installation, but it is easier to input them as options of ``build``).  Boot your installation media and perform the ``build`` command following the below example::
 
-   build IP+192.168.117.5 netmask=255.255.255.128 dns=198.202.75.26 gateway=192.168.117.1
+   build IP=192.168.117.5 netmask=255.255.255.128 dns=198.202.75.26 gateway=192.168.117.1
 
    *The IP address is applied to the eth1 port*
 
-Continue to follow the instructions presented to you as it asks for the name of the machine and the password for the **root user**.  Installation may take up to **20 minutes**.  Please note that if the system posts but does not boot after installation, the node may be do to a hardware failure.
+Continue to follow the instructions presented to you as it asks for the name of the machine and the password for the **root user**.  Installation may take up to **20 minutes**.  Please note that if the system passes post, but does not boot after installation, this may be due to a hardware failure.
